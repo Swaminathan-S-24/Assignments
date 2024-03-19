@@ -1,0 +1,15 @@
+//edit using state
+{errorTab ? <ErrorPopUp closeTab={handlCloseTab} /> : undefined}
+        {editTaskValue ? (
+          <EditTaskvalue
+            handleEdit={() => handleEditValue()}
+            handleCancel={handleCancelValue}
+            task={task}
+          />
+        ) : (
+          <Lists
+            curTaskList={curTaskList}
+            editTask={(edit, task) => handleEditTask(edit, task)}
+            deleteTask={(task) => handleDeleteTask(task)}
+          />
+        )}

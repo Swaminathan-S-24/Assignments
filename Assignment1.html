@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        color: #333;
+      }
+      a {
+        color: #333;
+      }
+
+      .container {
+        max-width: 1300px;
+        padding: 32px 64px;
+      }
+
+      .first-div {
+        font-size: 12px;
+        text-align: center;
+        margin: 10px 0;
+        position: relative;
+      }
+
+      .first-div::after {
+        content: "X";
+        position: absolute;
+        right: 190px;
+      }
+
+      .a-fis-div {
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid #333;
+      }
+
+      /* Second Div */
+      .nav-icon {
+        display: inline-block;
+        width: 16px;
+        color: #333;
+      }
+
+      .a-sec-div {
+        font-size: 12px;
+        text-decoration: none;
+      }
+
+      .second-div {
+        background-color: rgba(237, 237, 237, 0.3);
+        padding: 8px 0;
+        margin: 15px 0;
+      }
+
+      .sub-second-div {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        justify-content: right;
+        margin-right: 200px;
+      }
+
+      .flex-center {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+
+      /* Third Div */
+      .third-div {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 200px;
+      }
+      .sub-third-div-two {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+      }
+      .sign-in {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .a-trd-div {
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1.4;
+      }
+
+      .a-trd-div-two {
+        text-decoration: none;
+
+        font-size: 12px;
+      }
+
+      .sub-third-div-one {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+      }
+
+      .text-input-bod {
+        display: flex;
+        border: 2px solid #333;
+        align-items: center;
+        width: 200px;
+        border-radius: 3px;
+        gap: 10px;
+      }
+
+      .thr-text-input {
+        border: none;
+        padding: 12px 0;
+      }
+
+      .btn-third-div {
+        display: inline-block;
+        width: 20px;
+        border: none;
+        background-color: #fff;
+        padding-left: 5px;
+      }
+
+      .trd-icon {
+        width: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="first-div">
+        Discover the effortless, everywhere Dance Studio Pant—in new cargo
+        styles. <a href="#" class="a-fis-div">Shop What's New</a>
+      </div>
+      <div class="second-div">
+        <div class="sub-second-div">
+          <div class="flex-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="nav-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+              />
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+              />
+            </svg>
+            <a href="#" class="a-sec-div">Store Location</a>
+          </div>
+          <div class="flex-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="nav-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 3.75v16.5M2.25 12h19.5M6.375 17.25a4.875 4.875 0 0 0 4.875-4.875V12m6.375 5.25a4.875 4.875 0 0 1-4.875-4.875V12m-9 8.25h16.5a1.5 1.5 0 0 0 1.5-1.5V5.25a1.5 1.5 0 0 0-1.5-1.5H3.75a1.5 1.5 0 0 0-1.5 1.5v13.5a1.5 1.5 0 0 0 1.5 1.5Zm12.621-9.44c-1.409 1.41-4.242 1.061-4.242 1.061s-.349-2.833 1.06-4.242a2.25 2.25 0 0 1 3.182 3.182ZM10.773 7.63c1.409 1.409 1.06 4.242 1.06 4.242S9 12.22 7.592 10.811a2.25 2.25 0 1 1 3.182-3.182Z"
+              />
+            </svg>
+            <a href="#" class="a-sec-div">Gift Cards</a>
+          </div>
+          <div class="flex-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="nav-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z"
+              />
+            </svg>
+            <a href="#" class="a-sec-div">Get Help</a>
+          </div>
+          <div class="flex-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="nav-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
+              />
+            </svg>
+            <a href="#" class="a-sec-div">USA</a>
+          </div>
+        </div>
+      </div>
+      <div class="third-div">
+        <div class="sub-third-div-one">
+          <svg
+            viewBox="0 0 27 27"
+            xmlns="http://www.w3.org/2000/svg"
+            width="34"
+            height="34"
+          >
+            <path
+              d="M13.499 0C20.956 0 27 6.045 27 13.5 27 20.957 20.956 27 13.499 27 6.044 27 0 20.958 0 13.5 0 6.044 6.044 0 13.499 0zm7.076 20.18c-.425 0-.825-.127-1.22-.391-2.184-1.454-1.438-3.198.053-5.897.63-1.145 1.282-2.324 1.572-3.542.311-1.31.594-3.22-.542-4.664-.534-.677-1.347-1.2-2.413-1.554-1.112-.367-2.54-.566-4.25-.589l-.118-.003-.434.003c-1.709.023-3.139.222-4.248.589-1.068.354-1.88.876-2.415 1.554-1.136 1.445-.853 3.354-.54 4.664.288 1.218.941 2.4 1.57 3.541 1.491 2.7 2.238 4.444.052 5.898-.394.264-.792.39-1.218.39-.85 0-1.83-.425-2.352-.685l.127.223c1.08 1.621 2.468 2.483 4.01 2.483.676 0 1.39-.164 2.12-.488.775-.343 1.455-.971 1.917-1.769.46-.798.643-1.657.512-2.421-.158-.685-.516-1.606-.927-2.673-1.077-2.783-2.548-6.588-1.278-8.449.536-.785 1.5-1.169 2.945-1.174 1.447.005 2.41.389 2.946 1.174 1.272 1.861-.2 5.666-1.275 8.445-.413 1.068-.77 1.99-.928 2.67-.132.771.05 1.63.512 2.428s1.142 1.426 1.917 1.77c.73.323 1.444.487 2.12.487 1.542 0 2.93-.862 4.015-2.49l.122-.216c-.52.26-1.5.686-2.352.686z"
+              id="Combined-Shape"
+              fill-rule="nonzero"
+              fill="#d31334"
+            ></path>
+          </svg>
+          <a href="#" class="a-trd-div">Women</a>
+          <a href="#" class="a-trd-div">Men</a>
+          <a href="#" class="a-trd-div">Accessories</a>
+          <a href="#" class="a-trd-div">Shoes</a>
+          <a href="#" class="a-trd-div">Like New</a>
+        </div>
+        <div class="sub-third-div-two">
+          <div class="text-input-bod">
+            <button class="btn-third-div">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="btn-third-div"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                />
+              </svg>
+            </button>
+            <input type="text" class="thr-text-input" placeholder="Search" />
+          </div>
+          <div class="sign-in">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="trd-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75"
+              />
+            </svg>
+
+            <a href="#" class="a-trd-div-two">Sign In</a>
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="trd-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+              />
+            </svg>
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="trd-icon"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
