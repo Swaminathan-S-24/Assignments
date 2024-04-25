@@ -17,7 +17,7 @@ export default function AddTask({ saveTask, cancleTask }) {
         Save
       </button>
       <button className="small-button" onClick={cancleTask}>
-        Cancle
+        Cancel
       </button>
     </div>
   );
